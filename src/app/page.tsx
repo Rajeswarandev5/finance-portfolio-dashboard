@@ -10,7 +10,9 @@ import { PortfolioData } from '@/types/portfolio';
 import { fetchPortfolioData, checkHealth } from '@/services/portfolioService';
 import { Loader2, RefreshCcw, AlertTriangle, WifiOff } from 'lucide-react';
 
-const SOCKET_URL = 'http://localhost:5000';
+// const SOCKET_URL = 'http://localhost:5000';
+// const SOCKET_URL = 'https://finance-portfolio-server.vercel.app';
+const SOCKET_URL = 'https://finance-portfolio-server-production.up.railway.app';
 
 export default function PortfolioDashboard() {
   const [data, setData] = useState<PortfolioData | null>(null);

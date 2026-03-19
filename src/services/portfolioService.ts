@@ -1,7 +1,9 @@
 import axios from 'axios';
 import { PortfolioData } from '@/types/portfolio';
 
-const API_BASE_URL = 'http://localhost:5000';
+// const API_BASE_URL = 'http://localhost:5000';
+// const API_BASE_URL = 'https://finance-portfolio-server.vercel.app';
+const API_BASE_URL = 'https://finance-portfolio-server-production.up.railway.app';
 
 export const checkHealth = async (): Promise<boolean> => {
   try {
