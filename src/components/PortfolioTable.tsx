@@ -175,7 +175,7 @@ export default function PortfolioTable({ stocks, sectorSummary, totalPortfolioVa
                      <td className="px-4 py-3 font-bold text-emerald-100 whitespace-nowrap">
                         {formatCurrency(sector.presentValue)}
                      </td>
-                     <td className={cn("px-4 py-3 font-bold whitespace-nowrap text-right", glClass)}>
+                     <td className={cn("px-4 py-3 font-bold whitespace-nowrap", glClass)}>
                         {formatCurrency(sector.gainLoss)}
                      </td>
                      <td className={cn("px-4 py-3 font-bold whitespace-nowrap", glClass)}>
